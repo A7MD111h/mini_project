@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.topon{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.header{
+    position:relative;
+    background-color: #ccc;
+    margin: auto;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#logo{
+    font-size: 20px;
+    background-color: #333333;
+    color: white;
+    padding: 16px;
+    display: flex;
+}
+.delicious {
+    font-family: 'Yellowtail', cursive;
+    color: black;
+    font-size: 25px;
+    margin: 0; 
+    white-space: nowrap; 
+}
+.best-blog {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color:#C7BD91;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.testdiv{
+    display: flex;
+}
+.icons {
+    color: #333333;
+    font-size: 25px;
+    display: flex;
+    gap: 2px;
+}
+/*  hr  */  
+.stripe {
+    background-image: linear-gradient(45deg, #ffffff 28.57%, #e0e0e0 28.57%, #e0e0e0 50%, #ffffff 50%, #ffffff 78.57%, #e0e0e0 78.57%, #e0e0e0 100%);
+    background-size: 9.90px 9.90px;
+    border: inset;
+    padding: 3px;
+}
+/* mian   */ 
+.choco_pizza{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 100px;
+}
+.printer{
+    display: flex;
+    justify-content: space-between;
+}
+.post{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color:#C7BD91;
+    font-size: 25px;
+}
+.img_pizza{
+    width: 100%;
+    padding-top: 10px;
+   
+}
+.section1{
+    font-family: 'Oswald', sans-serif;
+    color:#C7BD91;
+    padding-top:10px;
+}
+
+.section2{
+    background-image: url(/image/list-bg.png);
+    width: 100%; 
+   padding-left: 40px;
+    
+    box-shadow:5px 5px 30px gray ;
+
+}
+.form{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-column: auto;
+    grid-gap: 5px;
+    padding: 5px;
+
+}
+.div_form{
+   
+    width: 75%;
+}
+
+
+/*  end page  */ 
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button1 {
+    background-color: #D93A57;
+    color: #ECDFE8;
+    border: 3px solid black; 
+    font-size: 12px;
+}
+.yourimage{
+    width: 100%;
+    height: 300px; 
+    display: flex;
+}
+.button_poz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+.end{
+    font-family: 'Oswald', sans-serif;
+    color:#C7BD91;
+   line-height: 1.5em;
+   text-align: center;
+  
+}
+.end_logo{
+    font-size: 20px;
+    background-color: #989899;
+    color: white;
+    padding: 1%;
+    
+}
